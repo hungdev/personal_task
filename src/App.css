@@ -6,7 +6,7 @@ html, body {
   /* min-height: 100%;  */
 }
 .app-container {
-  min-height: calc(100% - 78 -100); /* 78 is header heigh, 100 is footer heigh*/
+  min-height: calc(100% - 78px - 100px) !important; /* 78 is header heigh, 100 is footer heigh*/
 }
 .App {
   text-align: center;
